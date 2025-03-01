@@ -1,5 +1,6 @@
 import React from 'react';
 import { Calendar, MapPin, Mail, Github, Linkedin, Twitter } from 'lucide-react';
+import pic from '../assets/Vinod_pic.jpg'
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="md:w-1/3">
             <img 
-              src="C:\Users\mvino\Downloads\Vinod_pic.jpg" 
+              src= {pic} 
               alt="Vinod Kumar" 
               className="rounded-lg shadow-lg w-full max-w-sm mx-auto"
             />
